@@ -6,6 +6,8 @@ export interface TseClientOptions {
     headless?: boolean;
 }
 
+export type { Person };
+
 export class TseClient {
     private browser!: Browser;
     private queryCreator: QueryCreator;
